@@ -117,6 +117,9 @@
           position: relative;
           left: 10px;
           top: 5px;
+            p{
+                color: #fff;
+            }
         }
       }
       .notificationHeader {
