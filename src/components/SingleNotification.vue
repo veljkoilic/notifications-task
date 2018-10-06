@@ -43,20 +43,17 @@ export default {
     margin: 0 auto;
     min-height: 100px;
     padding: 0 20px;
-    border-bottom: 2px solid lightgray;
+    border-bottom: 1px solid lightgray;
     display: grid;
     grid-template-columns: 100fr 1fr;
     background: #fff;
       &:hover{
-          /*transform: scale(1.1);*/
           padding-left: 15px;
           border-left: 5px solid green;
           transition: 0.3s ease-in-out all;
           .xButton{
               color: #e54d2d;
           }
-
-
       }
       div{
           display: flex;
